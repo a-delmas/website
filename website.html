@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container text-center">
+    <h1 class="font-weight-bold text-danger"><u>Introduction à PHP</u></h1>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Les Variables</button>
+    <div class="collapse" id="collapseOne">
+      <div class="ex1">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Exercice 1</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Réponse</button>
+      
+          <div class="collapse" id="collapse"></div>
+            <div class="collapse text-danger font-weight-bold" id="collapse1"><p>Créer une variable nom et l'initialiser avec la valeur de votre choix. Afficher son contenu.</p></div>
+            <div class="collapse text-success" id="collapse2"><p>Creer une variable $nom puis l'afficher avec un echo.</p></div>
+            <div class="collapse text-warning" id="collapse3">
+              <code>
+                $nom = "Aurore";<br>
+                echo $nom;
+            </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse4"><p>Aurore</p></div>
+          </div>
+      </div>
+      <div class="ex2">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Exercice 2</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">Réponse</button>
+      
+          <div class="collapse" id="collapseOne">
+            <div class="collapse text-danger font-weight-bold" id="collapse5"><p>Créer trois variables nom , prenom et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier. Afficher leur contenu.</p></div>
+            <div class="collapse text-success" id="collapse6"><p>Creer 3 variables ($nom, $prenom, $age) puis les afficher séparément avec des echos.</p></div>
+            <div class="collapse text-warning" id="collapse7">
+              <code>
+                $nom = "Delmas";<br>
+                $prenom = "Aurore";<br>
+                $age = 30;<br>
+                echo $nom ;<br>
+                echo $prenom;<br>
+                echo $age;
+            </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse8"><p>
+              Delmas<br>
+              Aurore<br>
+              30 
+            </p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex3">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">Exercice 3</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">Réponse</button>
+      
+          <div class="collapse" id="collapseOne">
+            <div class="collapse text-danger font-weight-bold" id="collapse9"><p>Créer une variable km. L'initialiser à 1. Afficher son contenu. Changer sa valeur par 3. Afficher son contenu. Changer sa valeur par 125. Afficher son contenu.</p></div>
+            <div class="collapse text-success" id="collapse10"><p>Creer une variable $km égale à 1 puis l'afficher avec un echo. Remplacer le 1 par 3 puis par 125 et afficher a chaque fois avec un echo.<br>
+            </p></div>
+            <div class="collapse text-warning" id="collapse11">
+              <code>
+                $km = 1;<br>
+                echo $km;<br>
+  
+                $km = 3;<br>
+                echo $km;<br>
+  
+                $km = 125;<br>
+                echo $km;
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse12"><p>
+              1<br>
+              3<br>
+              125
+            </p>
+          </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex4">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">Exercice 4</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">Réponse</button>
+      
+          <div class="collapse" id="collapseOne">
+            <div class="collapse text-danger font-weight-bold" id="collapse13"><p>Créer une variable de type string, une variable de type int, une variable de type float, une variable de type booléan et les initialiser avec une valeur de votre choix. Les afficher.</p></div>
+            <div class="collapse text-success" id="collapse14"><p>Creer 4 variables ($string contenant des chaines de caractères, $int contenant des entiers, $float contenant des nombres à virgules et $boolean contenant True ou False) puis les afficher avec des echos.</p>
+            </div>
+            <div class="collapse text-warning" id="collapse15">
+              <code>
+                $string = "Aurore";<br>
+                $int = 30;<br>
+                $float = 15.5;<br>
+                $boolean = true;<br>
+  
+                echo $string;<br>
+                echo $int;<br>
+                echo $float;<br>
+                echo $boolean;
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse16"><p>
+              Aurore<br>
+              30<br>
+              15.5<br>
+              1 
+            </p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex5">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">Exercice 5</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">Réponse</button>
+      
+          <div class="collapse" id="collapseOne">
+            <div class="collapse text-danger font-weight-bold" id="collapse17"><p>Créer une variable de type float. L'initialiser à 1. Afficher son type. Changer sa valeur par 4.8 et afficher son contenu.</p></div>
+            <div class="collapse text-success" id="collapse18"><p>Creer une variable $float égale = 1, afficher son "type" avec 1- un echo gettype($float), 2- var_dump($float) puis 3- un echo. Remplacer le 1 par 4.8 et l'afficher avec un echo.</p></div>
+            <div class="collapse text-warning" id="collapse19">
+              <code>
+                $float = 1;<br>
+                echo gettype($float);<br>
+                var_dump($float);<br>
+                echo $float;<br>
+    
+                $float = 4.8;<br>
+                echo $float;
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse20"><p>
+              integerint(1) 1<br>
+              4.8 <br>
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex6">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">Exercice 6</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">Réponse</button>
+      
+          <div class="collapse" id="collapseOne">
+            <div class="collapse text-danger font-weight-bold" id="collapse21"><p>Créer une variable nom et l'initialiser avec la valeur de votre choix. Afficher : "Bonjour" + nom + ", comment vas tu ?".</p></div>
+            <div class="collapse text-success" id="collapse22"><p>Creer une variable $nom puis l'afficher avec un echo précédé de "Bonjour" et suivi de "comment vas tu ?" grâce à des concaténations.</p></div>
+            <div class="collapse text-warning" id="collapse23">
+              <code>
+                $nom = "Aurore";<br>
+                echo 'Bonjour ' . $nom . ', comment vas-tu ?';
+            </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse24"><p>Bonjour Aurore, comment vas-tu ? </p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex7">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">Exercice 7</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse27" aria-expanded="false" aria-controls="collapse27">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">Réponse</button>
+      
+          <div class="collapse" id="collapseOne">
+            <div class="collapse text-danger font-weight-bold" id="collapse25"><p>Créer trois variables nom , prenom et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier. Afficher : "Bonjour" + nom + prenom + ",tu as" + age + "ans".</p></div>
+            <div class="collapse text-success" id="collapse26"><p>Creer 2 variables ($nom, $prenom) puis l'afficher avec un echo précédé de "Bonjour" , suivi de",tu as" puis créer une variable $age, l'insérer avec un echo à la suite suivi de  "ans" grâce à des concaténations.</p></div>
+            <div class="collapse text-warning" id="collapse27">
+              <code>
+                $nom = "Delmas";<br>
+                $prenom = "Aurore";<br>
+                $age = 30;<br>
+                echo 'Bonjour ' . $nom . ' ' .  $prenom . ', tu as ' . $age . ' ans.';
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse28"><p>Bonjour Delmas Aurore, tu as 30 ans. </p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex8">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">Exercice 8</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse32" aria-expanded="false" aria-controls="collapse32">Réponse</button>
+      
+          <div class="collapse" id="collapseOne">
+            <div class="collapse text-danger font-weight-bold" id="collapse29"><p>Créer 3 variables. Dans la première mettre le résultat de l'opération 3 + 4. Dans la deuxième mettre le résultat de l'opération 5 * 20. Dans la troisième mettre le résultat de l'opération 45 / 5. Afficher le contenu des variables. </p></div>
+            <div class="collapse text-success" id="collapse30"><p>Creer une variable $num1 contenant le résultat de 3 +4, une autre contenant le résultat de 5 * 20 et une dernière contenant le résultat de 45 / 5 puis les afficher à la sute avec des echos.</p></div>
+            <div class="collapse text-warning" id="collapse31">
+              <code>
+                $num1 = 3 + 4;<br>
+                echo $num1;<br>
+                $num2 = 5 * 20;<br>
+                echo $num2;<br>
+                $num3 = 45 / 5;<br>
+                echo $num3;
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse32"><p>
+              7<br>
+              100<br>
+              9 
+            </p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Les Conditions</button>
+    <div class="collapse" id="collapseTwo">
+      <div class="ex1">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Exercice 1</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo"></div>
+            <div class="collapse text-danger font-weight-bold" id="collapse1"><p>Créer une variable age et l'initialiser avec une valeur. Si l'age est supérieur ou égale à 18, afficher Vous êtes majeur. Dans le cas contraire, afficher Vous êtes mineur.</p></div>
+            <div class="collapse text-success" id="collapse2"><p>Creer une variable $age. Créer une condition pour faire afficher un echo en fonction de la variable.</p></div>
+            <div class="collapse text-warning" id="collapse3">
+              <code>
+                $age = 30;<br>
+              
+                  if ($age>= 18) {<br>
+                  echo 'Vous êtes majeur';<br>
+                  }<br>
+                      else {<br>
+                          echo 'Vous êtes mineur';<br>
+                      }
+              </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse4"><p>Vous êtes majeur</p></div>
+          </div>
+      </div>
+      <div class="ex2">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Exercice 2</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo">
+            <div class="collapse text-danger font-weight-bold" id="collapse5"><p>Créer une variable IsEasy de type booléan et l'initialiser avec une valeur. Afficher C'est facile!! si c'est vrai. Dans le cas contraire afficher C'est difficile !!!.</p></div>
+            <div class="collapse text-success" id="collapse6"><p>Creer une variable $IsEasy qui renvoit True ou False. Créer une condition pour faire afficher un echo en fonction de la variable.</p></div>
+            <div class="collapse text-warning" id="collapse7">
+              <code>
+                $isEasy = true;<br>
+
+                if ($isEasy = True) {<br>
+                    echo "C'est facile !!";<br>
+                }<br>
+                    else {<br>
+                        echo "C'est difficile !!!";<br>
+                    }
+            </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse8"><p>C'est facile !!</p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex3">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">Exercice 3</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo">
+            <div class="collapse text-danger font-weight-bold" id="collapse9"><p>Créer deux variables age et genre. La variable genre peut prendre comme valeur : Homme OU Femme. En fonction de l'âge et du genre afficher la phrase correspondante :
+              Vous êtes un homme et vous êtes majeur / Vous êtes un homme et vous êtes mineur / Vous êtes une femme et vous êtes majeur / Vous êtes une femme et vous êtes mineur
+              Gérer tous les cas.</p></div>
+            <div class="collapse text-success" id="collapse10"><p>Creer deux variables $age et $genre (Homme ou Femme) puis créer une condition pour afficher un echo en fonction des variables.<br>
+            </p></div>
+            <div class="collapse text-warning" id="collapse11">
+              <code>
+                $age = 30;
+                $genre = "Femme";
+
+                if ($age >= 18) {<br>
+                    if ($genre == "Homme") {<br>
+                        echo 'Vous êtes un homme et vous êtes majeur';<br>
+                    }<br>
+                    else {<br>
+                        echo 'Vous êtes un femme et vous êtes majeur';<br>
+                    }<br>
+                }<br>
+                else {<br>
+                    if ($genre == "Femme") {<br>
+                        echo 'Vous êtes une femme et vous êtes mineur';<br>
+                    }<br>
+                    else {<br>
+                        echo 'Vous êtes une homme et vous êtes mineur';<br>
+                    }<br>
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse12"><p>
+              Vous êtes un femme et vous êtes majeur
+            </p>
+          </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex4">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">Exercice 4</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo">
+            <div class="collapse text-danger font-weight-bold" id="collapse13"><p>L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre. Cette échelle va de 1 à 9. Créer une variable magnitude. Selon la valeur de magnitude, afficher la phrase correspondante. 
+                1	Micro-séisme impossible à ressentir.
+                2	Micro-séisme impossible à ressentir mais enregistrable par les sismomètres.
+                3	Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti.
+                4	Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats.
+                5	Séisme capable d'engendrer des dégats importants sur de vieux bâtiments ou bien des bâtiments présentants des défauts de construction. Peu de dégats sur des bâtiments modernes.
+                6	Fort séisme capable d'engendrer des destructions majeures sur une large distance (180 km) autour de l'épicentre.
+                7	Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance.
+                8	Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres. 
+                9	Séisme capable de tout détruire sur une très vaste zone.
+
+                Gérer tous les cas et utiliser autre chose que des if else</p></div>
+            <div class="collapse text-success" id="collapse14"><p>Creer une variable $magnitude puis une condition pour afficher un echo en fonction de la variable.</p>
+            </div>
+            <div class="collapse text-warning" id="collapse15">
+              <code>
+                $magnitude = 1;<br>
+
+                if ($magnitude == 1) {<br>
+                    echo 'Micro-séisme impossible à ressentir.';<br>
+                }<br>
+                    elseif ($magnitude == 2) {<br>
+                        echo 'Micro-séisme impossible à ressentir mais enregistrable par les sismomètres.';<br>
+                    }<br>
+                    elseif ($magnitude == 3) {<br>
+                        echo 'Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti.';<br>
+                    }<br>
+                    elseif ($magnitude == 4) {<br>
+                        echo 'Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats.';<br>
+                    }<br>
+                    elseif ($magnitude == 5) {<br>
+                        echo "Séisme capable d'engendrer des dégats importants sur de vieux bâtiments ou bien des bâtiments présentants des défauts de construction. Peu de dégats sur des bâtiments modernes.";<br>
+                    }<br>
+                    elseif ($magnitude == 6) {<br>
+                        echo "Fort séisme capable d'engendrer des destructions majeures sur une large distance (180 km) autour de l'épicentre.";<br>
+                    }<br>
+                    elseif ($magnitude == 7) {<br>
+                        echo 'Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance.';<br>
+                    }
+                    elseif ($magnitude == 8) {<br>
+                        echo 'Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres.';<br>
+                    }<br>
+                    elseif ($magnitude == 9) {<br>
+                        echo 'Séisme capable de tout détruire sur une très vaste zone.';<br>
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse16"><p>
+              Micro-séisme impossible à ressentir.
+            </p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex5">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">Exercice 5</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo">
+            <div class="collapse text-danger font-weight-bold" id="collapse17"><p>Traduire ce code avec des if et des else :
+              echo ($maVariable != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';</p></div>
+
+                <div class="collapse text-success" id="collapse18"><p>Retrouver les lignes de codes correspondant au echo.</p></div>
+            <div class="collapse text-warning" id="collapse19">
+              <code>
+                $maVariable = "Homme";<br>
+
+                if ($maVariable == "Homme") {<br>
+                    echo "C'est un développeur !!!";<br>
+                }<br>
+                else {<br>
+                    echo "C'est une développeuse !!!";<br>
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse20"><p>C'est un développeur !!!</div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex6">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">Exercice 6</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo">
+            <div class="collapse text-danger font-weight-bold" id="collapse21"><p>Traduire ce code avec des if et des else :
+              echo ($monAge >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';</p></div>
+            <div class="collapse text-success" id="collapse22"><p>Retrouver les lignes de codes correspondant au echo.</p></div>
+            <div class="collapse text-warning" id="collapse23">
+              <code>
+                $monAge = 18;<br>
+
+            if ($monAge >= 18) {<br>
+                echo 'Tu es majeur';<br>
+            }<br>
+            else {<br>
+                echo "Tu n'es pas majeur";<br>
+            }
+          </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse24"><p>Tu es majeur</p></div>
+          </div>
+        </div>
+  
+      </div> 
+      <div class="ex7">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">Exercice 7</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse27" aria-expanded="false" aria-controls="collapse27">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo">
+            <div class="collapse text-danger font-weight-bold" id="collapse25"><p>Traduire ce code avec des if et des else : 
+              echo ($maVariable == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';</p></div>
+            <div class="collapse text-success" id="collapse26"><p>Retrouver les lignes de codes correspondant au echo.</p></div>
+            <div class="collapse text-warning" id="collapse27">
+              <code>
+                $maVariable = True;<br>
+
+            if ($maVariable == True) {<br>
+                echo "C'est ok !!!";<br>
+            }<br>
+            else {<br>
+                echo "C'est pas bon !!!";<br>
+            }
+          </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse28"><p>C'est ok !!!</p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex8">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">Exercice 8</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse32" aria-expanded="false" aria-controls="collapse32">Réponse</button>
+      
+          <div class="collapse" id="collapseTwo">
+            <div class="collapse text-danger font-weight-bold" id="collapse29"><p>Traduire ce code avec des if et des else :
+              echo ($maVariable) ? 'cest ok !!' : 'cest null :D';</p></div>
+            <div class="collapse text-success" id="collapse30"><p>Retrouver les lignes de codes correspondant au echo.</p></div>
+            <div class="collapse text-warning" id="collapse31">
+              <code>
+                $maVariable = True;<br>
+
+                if ($maVariable == True) {<br>
+                    echo "C'est ok !!";<br>
+                }<br>
+                else {<br>
+                    echo "C'est null :D";<br>
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse32"><p>
+              C'est ok !!!
+            </p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-muted" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Les Boucles</button>
+    <div class="collapse" id="collapseThree">
+      <div class="ex1">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Exercice 1</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Réponse</button>
+      
+          <div class="collapse" id="collapseThree"></div>
+            <div class="collapse text-danger font-weight-bold" id="collapse1"><p>Créer une variable et l'initialiser à 0. Tant que cette variable n'atteint pas 10, il faut : l'afficher et l'incrémenter</p></div>
+            <div class="collapse text-success" id="collapse2"><p>Creer une variable $var = 0 et boucler dessus jusqu'à 10.</p></div>
+            <div class="collapse text-warning" id="collapse3">
+              <code>
+                $var = 0;<br>
+
+                while ($var<10) {<br>
+                    echo 'Variable' , $var, '<br>';<br>
+                    $var++;<br>
+                }
+              </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse4">
+              <p>
+                Variable0<br>
+                Variable1<br>
+                Variable2<br>
+                Variable3<br>
+                Variable4<br>
+                Variable5<br>
+                Variable6<br>
+                Variable7<br>
+                Variable8<br>
+                Variable9
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="ex2">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Exercice 2</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">Réponse</button>
+      
+          <div class="collapse" id="collapseThree">
+            <div class="collapse text-danger font-weight-bold" id="collapse5"><p>Créer deux variables. Initialiser la première à 0 et la deuxième avec un nombre aléatoire compris en 1 et 100. Tant que la première variable n'est pas supérieur à 20 : 
+                  multiplier la première variable avec la deuxième
+                  afficher le résultat
+                  incrémenter la première variable</p></div>
+            <div class="collapse text-success" id="collapse6"><p>Créer deux variables ($var1 = 0 et $var2=random entre 1 et 100. Tant que la première est inférieure à 10 : 
+              faire $var1 * $var2 et faire un echo
+            </p></div>
+            <div class="collapse text-warning" id="collapse7">
+              <code>
+                $var1 = 0;<br>
+                    $var2 = rand(1, 100);<br>
+
+                    while ($var1 < 20) {<br>
+                        echo $var1*$var2 . '<br>';<br>
+                        $var1++;<br>
+                    }
+            </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse8">
+              <p>
+                0<br>
+                80<br>
+                160<br>
+                240<br>
+                320<br>
+                400<br>
+                480<br>
+                560<br>
+                640<br>
+                720<br>
+                800<br>
+                880<br>
+                960<br>
+                1040<br>
+                1120<br>
+                1200<br>
+                1280<br>
+                1360<br>
+                1440<br>
+                1520<br>  
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex3">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">Exercice 3</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">Réponse</button>
+      
+          <div class="collapse" id="collapseThree">
+            <div class="collapse text-danger font-weight-bold" id="collapse9"><p>Créer deux variables. Initialiser la première à 100 et la deuxième avec un nombre aléatoire compris en 1 et 100. Tant que la première variable n'est pas inférieur ou égale à 10 :   
+                  la première variable avec la deuxième
+                  afficher le résultat
+                  décrémenter la première variable</p></div>
+            <div class="collapse text-success" id="collapse10"><p>Créer deux variables ($var1 = 100 et $var2=random entre 1 et 100. Tant que la première est supérieure à 10 : 
+              faire $var1 * $var2 et faire un echo<br>
+            </p></div>
+            <div class="collapse text-warning" id="collapse11">
+              <code>
+                $var1 = 100;<br>
+                    $var2 = rand(1, 100);<br>
+
+                    while ($var1 >= 10) {<br>
+                        echo $var1*$var2 . '<br>';<br>
+                        $var1--;<br>
+                    }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse12"><p>
+              9400<br>
+              9306<br>
+              9212<br>
+              9118<br>
+              9024<br>
+              8930<br>
+              8836<br>
+              8742<br>
+              8648<br>
+              8554<br>
+              8460<br>
+              8366<br>
+              8272<br>
+              8178<br>
+              8084<br>
+              7990<br>
+              7896<br>
+              7802<br>
+              7708<br>
+              7614<br>
+              7520<br>
+              7426<br>
+              7332<br>
+              7238<br>
+              7144<br>
+              7050<br>
+              6956<br>
+              6862<br>
+              6768<br>
+              6674<br>
+              6580<br>
+              6486<br>
+              6392<br>
+              6298<br>
+              6204<br>
+              6110<br>
+              6016<br>
+              5922<br>
+              5828<br>
+              5734<br>
+              5640<br>
+              5546<br>
+              5452<br>
+              5358<br>
+              5264<br>
+              5170<br>
+              5076<br>
+              4982<br>
+              4888<br>
+              4794<br>
+              4700<br>
+              4606<br>
+              4512<br>
+              4418<br>
+              4324<br>
+              4230<br>
+              4136<br>
+              4042<br>
+              3948<br>
+              3854<br>
+              3760<br>
+              3666<br>
+              3572<br>
+              3478<br>
+              3384<br>
+              3290<br>
+              3196<br>
+              3102<br>
+              3008<br>
+              2914<br>
+              2820<br>
+              2726<br>
+              2632<br>
+              2538<br>
+              2444<br>
+              2350<br>
+              2256<br>
+              2162<br>
+              2068<br>
+              1974<br>
+              1880<br>
+              1786<br>
+              1692<br>
+              1598<br>
+              1504<br>
+              1410<br>
+              1316<br>
+              1222<br>
+              1128<br>
+              1034<br>
+              940
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="ex4">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">Exercice 4</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">Réponse</button>
+      
+          <div class="collapse" id="collapseThree">
+            <div class="collapse text-danger font-weight-bold" id="collapse13"><p>Créer une variable et l'initialiser à 1. Tant que cette variable n'atteint pas 10, il faut : 
+                 l'afficher
+                  l'incrementer de la moitié de sa valeur</p></div>
+            <div class="collapse text-success" id="collapse14"><p>Créer une variable $var1 = 1. Tant que la variable est infrieure à 10 : 
+              faire faire un eco et lui ajouter la moitié de sa valeur</p>
+            </div>
+            <div class="collapse text-warning" id="collapse15">
+              <code>
+                $var = 1;<br>
+                
+                while ($var < 10) {<br>
+                    echo $var . '<br>';<br>
+                    $var += ($var/2);<br>
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse16"><p>
+              1<br>
+              1.5<br>
+              2.25<br>
+              3.375<br>
+              5.0625<br>
+              7.59375
+            </p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex5">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">Exercice 5</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">Réponse</button>
+      
+          <div class="collapse" id="collapseThree">
+            <div class="collapse text-danger font-weight-bold" id="collapse17"><p>En allant de 1 à 15 avec un pas de 1, afficher le message On y arrive presque.</p></div>
+
+                <div class="collapse text-success" id="collapse18"><p>Faire un echo "On y est presque" à chaque tour de boucle de 1 à 15 </p></div>
+            <div class="collapse text-warning" id="collapse19">
+              <code>
+                $pas = 1;<br>
+
+                for($pas=1; $pas<=15; $pas++)<br>
+                {<br>
+                echo $pas . ' On y arrive presque' . '<br/>';
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse20">
+              <p>
+                1 On y arrive presque<br>
+                2 On y arrive presque<br>
+                3 On y arrive presque<br>
+                4 On y arrive presque<br>
+                5 On y arrive presque<br>
+                6 On y arrive presque<br>
+                7 On y arrive presque<br>
+                8 On y arrive presque<br>
+                9 On y arrive presque<br>
+                10 On y arrive presque<br>
+                11 On y arrive presque<br>
+                12 On y arrive presque<br>
+                13 On y arrive presque<br>
+                14 On y arrive presque<br>
+                15 On y arrive presque
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex6">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">Exercice 6</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">Réponse</button>
+      
+          <div class="collapse" id="collapseThree">
+            <div class="collapse text-danger font-weight-bold" id="collapse21"><p>En allant de 20 à 0 avec un pas de 1, afficher le message C'est presque bon.</p></div>
+            <div class="collapse text-success" id="collapse22"><p>Faire un echo "C'est presque bon" à chaque tour de boucle de 20 à 0</p></div>
+            <div class="collapse text-warning" id="collapse23">
+              <code>
+                $pas = 20;<br>
+
+                for($pas=20; $pas>=0; $pas--) {<br>
+                echo $pas . " C'est presque bon" . '<br/>';<br>
+                }
+          </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse24">
+              <p>
+                20 C'est presque bon<br>
+                19 C'est presque bon<br>
+                18 C'est presque bon<br>
+                17 C'est presque bon<br>
+                16 C'est presque bon<br>
+                15 C'est presque bon<br>
+                14 C'est presque bon<br>
+                13 C'est presque bon<br>
+                12 C'est presque bon<br>
+                11 C'est presque bon<br>
+                10 C'est presque bon<br>
+                9 C'est presque bon<br>
+                8 C'est presque bon<br>
+                7 C'est presque bon<br>
+                6 C'est presque bon<br>
+                5 C'est presque bon<br>
+                4 C'est presque bon<br>
+                3 C'est presque bon<br>
+                2 C'est presque bon<br>
+                1 C'est presque bon<br>
+                0 C'est presque bon
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="ex7">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">Exercice 7</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse27" aria-expanded="false" aria-controls="collapse27">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">Réponse</button>
+      
+          <div class="collapse" id="collapseThree">
+            <div class="collapse text-danger font-weight-bold" id="collapse25"><p>En allant de 1 à 100 avec un pas de 15, afficher le message On tient le bon bout.</p></div>
+            <div class="collapse text-success" id="collapse26"><p>Tout les 15 tours de boucles, faire des echos "On tient le bon bout" de 1 à 100 </p></div>
+            <div class="collapse text-warning" id="collapse27">
+              <code>
+                $pas = 1;<br>
+
+                for($pas=1; $pas<=100; $pas+= 15)<br>
+                {
+                echo $pas . ' On tient le bon bout' . '<br/>';
+                }
+          </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse28">
+              <p>
+                1 On tient le bon bout<br>
+                16 On tient le bon bout<br>
+                31 On tient le bon bout<br>
+                46 On tient le bon bout<br>
+                61 On tient le bon bout<br>
+                76 On tient le bon bout<br>
+                91 On tient le bon bout
+              </p>  
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex8">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">Exercice 8</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse32" aria-expanded="false" aria-controls="collapse32">Réponse</button>
+      
+          <div class="collapse" id="collapseThree">
+            <div class="collapse text-danger font-weight-bold" id="collapse29"><p>En allant de 200 à 0 avec un pas de 12, afficher le message Enfin !!!!. </p></div>
+            <div class="collapse text-success" id="collapse30"><p>Tout les 12 tours de boucle, faire un echo "Enfin !!!!" de 200 à 0 "Enfin !!!!"</p></div>
+            <div class="collapse text-warning" id="collapse31">
+              <code>
+                $pas = 200;<br>
+
+                for($pas=200; $pas>=0; $pas-= 12)<br>
+                {<br>
+                echo $pas . ' Enfin !!!!' . '<br/>';<br>
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse32"><p>
+              200 Enfin !!!!<br>
+              188 Enfin !!!!<br>
+              176 Enfin !!!!<br>
+              164 Enfin !!!!<br>
+              152 Enfin !!!!<br>
+              140 Enfin !!!!<br>
+              128 Enfin !!!!<br>
+              116 Enfin !!!!<br>
+              104 Enfin !!!!<br>
+              92 Enfin !!!!<br>
+              80 Enfin !!!!<br>
+              68 Enfin !!!!<br>
+              56 Enfin !!!!<br>
+              44 Enfin !!!!<br>
+              32 Enfin !!!!<br>
+              20 Enfin !!!!<br>
+              8 Enfin !!!!
+            </p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Les Tableaux (ou Array)</button>
+    <div class="collapse" id="collapseFour">
+      <div class="ex1">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Exercice 1</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Réponse</button>
+      
+          <div class="collapse" id="collapseFour"></div>
+            <div class="collapse text-danger font-weight-bold" id="collapse1"><p>Créer un tableau mois et l'initialiser avec les valeurs suivantes :<br>
+                janvier<br>
+                février<br>
+                mars<br>
+                avril<br>
+                mai<br>
+                juin<br>
+                juillet<br>
+                aout<br>
+                septembre<br>
+                octobre<br>
+                novembre<br>
+                décembre
+              </p>
+            </div>
+            <div class="collapse text-success" id="collapse2"><p>Créer une variable $mois qui sera un array avec tout le mois de l'année</p></div>
+            <div class="collapse text-warning" id="collapse3">
+              <code>
+                $mois = array('janvier','février','mars','avril','mai','juin','juillet','aout', 'septembre','octobre', 'novembre', 'décembre');
+              </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse4"><p>""</p></div>
+          </div>
+      </div>
+      <div class="ex2">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Exercice 2</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse5"><p>Avec le tableau de l'exercice 1, afficher la valeur de la troisième ligne de ce tableau.</p></div>
+            <div class="collapse text-success" id="collapse6"><p>Afficher le contenu de la 3ème ligne du tableau</p></div>
+            <div class="collapse text-warning" id="collapse7">
+              <code>
+                $mois = array('janvier','février','mars','avril','mai','juin','juillet','aout', 'septembre','octobre', 'novembre', 'décembre');<br>
+                echo $mois[2];
+            </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse8"><p>mars</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="ex3">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">Exercice 3</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse9"><p>Avec le tableau de l'exercice , afficher la valeur de l'index 5.</p></div>
+            <div class="collapse text-success" id="collapse10"><p>Afficher le contenu de l'indes 5 du tableau</p></div>
+            <div class="collapse text-warning" id="collapse11">
+              <code>
+                $mois = array('janvier','février','mars','avril','mai','juin','juillet','aout', 'septembre','octobre', 'novembre', 'décembre');<br>
+                echo $mois[5];
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse12"><p>juin</p>
+          </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex4">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">Exercice 4</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse13"><p>Avec le tableau de l'exercice 1, modifier le mois de aout pour lui ajouter l'accent manquant.</p></div>
+            <div class="collapse text-success" id="collapse14"><p>Modifier la valeur "aout" dans le talbeau </p>
+            </div>
+            <div class="collapse text-warning" id="collapse15">
+              <code>
+                $mois = array('janvier','février','mars','avril','mai','juin','juillet','aout', 'septembre','octobre', 'novembre', 'décembre');<br>
+                $mois = strtr($mois[7], 'aout', 'août');<br>
+                echo $mois;
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse16"><p>août</p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex5">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">Exercice 5</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse17"><p>Créer un tableau associatif avec comme index le numéro des départements des Hauts de France et en valeur leur nom.</p></div>
+
+                <div class="collapse text-success" id="collapse18"><p>Créer un array contenant le numéro des départements des Hauts de France ainsi que leur nom</p></div>
+            <div class="collapse text-warning" id="collapse19">
+              <code>
+                $num = array(02, 59, 60, 62, 80);<br>
+                $value = array('Aisne', 'Nord', 'Oise', 'Pas-de-Calais', 'Somme');
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse20"><p>""</div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex6">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">Exercice 6</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse21"><p>Avec le tableau de l'exercice 5, afficher la valeur de l'index 59.</p></div>
+            <div class="collapse text-success" id="collapse22"><p>Afficher le contenu de l'index 59 du dernier tableau créé</p></div>
+            <div class="collapse text-warning" id="collapse23">
+              <code>
+                $num = array(02, 59, 60, 62, 80);<br>
+                $value = array('Aisne', 'Nord', 'Oise', 'Pas-de-Calais', 'Somme');<br>
+                echo $value[1];
+          </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse24"><p>Nord</p></div>
+          </div>
+        </div>
+  
+      </div> 
+      <div class="ex7">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">Exercice 7</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse27" aria-expanded="false" aria-controls="collapse27">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse25"><p>Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département de la ville de Reims.</p></div>
+            <div class="collapse text-success" id="collapse26"><p>Ajouter la ligne du département de Reims dans le dernier tableau créé</p></div>
+            <div class="collapse text-warning" id="collapse27">
+              <code>
+                $num = array(02, 51, 59, 60, 62, 80);<br>
+                $values = array('Aisne', 'Marne', 'Nord', 'Oise', 'Pas-de-Calais', 'Somme');
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse28"><p>""</p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex8">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">Exercice 8</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse32" aria-expanded="false" aria-controls="collapse32">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse29"><p>Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau.</p></div>
+            <div class="collapse text-success" id="collapse30"><p>Afficher le contenu du ernier tableau créé</p></div>
+            <div class="collapse text-warning" id="collapse31">
+              <code>
+                $mois = array('janvier','février','mars','avril','mai','juin','juillet','aout', 'septembre','octobre', 'novembre', 'décembre');<br>
+                while($mois>=12) {<br>
+                echo $mois;<br/>
+                $mois++;<br>
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse32"><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="ex9">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse33" aria-expanded="false" aria-controls="collapse33">Exercice 9</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse34" aria-expanded="false" aria-controls="collapse34">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse35" aria-expanded="false" aria-controls="collapse35">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse36" aria-expanded="false" aria-controls="collapse36">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse33"><p>Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau.</p></div>
+            <div class="collapse text-success" id="collapse34"><p></p></div>
+            <div class="collapse text-warning" id="collapse35">
+              <code>
+                
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse36"><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="ex10">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse37" aria-expanded="false" aria-controls="collapse37">Exercice 10</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse38" aria-expanded="false" aria-controls="collapse38">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse39" aria-expanded="false" aria-controls="collapse39">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse40" aria-expanded="false" aria-controls="collapse40">Réponse</button>
+      
+          <div class="collapse" id="collapseFour">
+            <div class="collapse text-danger font-weight-bold" id="collapse37"><p>Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau ainsi que les clés associés. Cela pourra être, par exemple, de la forme : "Le département" + nom_departement + "a le numéro" + num_departement</p></div>
+            <div class="collapse text-success" id="collapse38"><p></p></div>
+            <div class="collapse text-warning" id="collapse39">
+              <code>
+
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse40"><p></p></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Les Dates</button>
+    <div class="collapse" id="collapseFive">
+      <div class="ex1">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Exercice 1</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Réponse</button>
+      
+          <div class="collapse" id="collapseFive"></div>
+            <div class="collapse text-danger font-weight-bold" id="collapse1"><p>fficher la date courante en respectant la forme jj/mm/aaaa (ex : 16/05/2016)</p>
+            </div>
+            <div class="collapse text-success" id="collapse2"><p></p></div>
+            <div class="collapse text-warning" id="collapse3">
+              <code>
+                
+              </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse4"><p></p></div>
+          </div>
+      </div>
+      <div class="ex2">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Exercice 2</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse5"><p>Afficher la date courante en respectant la forme jj-mm-aa (ex : 16-05-16)</p></div>
+            <div class="collapse text-success" id="collapse6"><p></p></div>
+            <div class="collapse text-warning" id="collapse7">
+              <code>
+                
+            </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse8"><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="ex3">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">Exercice 3</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse9"><p>Afficher la date courante avec le jour de la semaine et le mois en toutes lettres (ex : mardi 2 août 2016)</p></div>
+            <div class="collapse text-success" id="collapse10"><p></p></div>
+            <div class="collapse text-warning" id="collapse11">
+              <code>
+                
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse12"><p></p>
+          </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="bonus">
+        <div>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">Bonus</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse13"><p>Le faire en français.</p></div>
+            <div class="collapse text-success" id="collapse14"><p></p>
+            </div>
+            <div class="collapse text-warning" id="collapse15">
+              <code>
+
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse16"><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="ex4">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">Exercice 4</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse17"><p>AAfficher le timestamp du jour. PUIS afficher le timestamp du mardi 2 août 2016 à 15h00.</p></div>
+                <div class="collapse text-success" id="collapse18"><p></p></div>
+            <div class="collapse text-warning" id="collapse19">
+              <code>
+
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse20"><p></div>
+          </div>
+        </div>
+      </div>
+      <div class="ex5">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">Exercice 5</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse21"><p>Afficher le nombre de jour qui sépare la date du jour avec le 16 mai 2016.</p></div>
+            <div class="collapse text-success" id="collapse22"><p></p></div>
+            <div class="collapse text-warning" id="collapse23">
+              <code>
+
+          </code>
+          </div>
+            <div class="collapse text-info font-weight-bold" id="collapse24"><p></p></div>
+          </div>
+        </div>
+  
+      </div> 
+      <div class="ex6">
+        <div>
+          
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">Exercice 6</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">Explications</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse27" aria-expanded="false" aria-controls="collapse27">Solution</button>
+          <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse25"><p>Afficher le nombre de jour dans le mois de février de l'année 2016..</p></div>
+            <div class="collapse text-success" id="collapse26"><p></p></div>
+            <div class="collapse text-warning" id="collapse27">
+              <code>
+
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse28"><p></p></div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="ex7">
+        <div>
+          
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">Exercice 7</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">Explications</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31">Solution</button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse32" aria-expanded="false" aria-controls="collapse32">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse29"><p>Afficher la date du jour + 20 jours.</p></div>
+            <div class="collapse text-success" id="collapse30"><p></p></div>
+            <div class="collapse text-warning" id="collapse31">
+              <code>
+
+                }
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse32"><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="ex8">
+        <div>
+          
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse33" aria-expanded="false" aria-controls="collapse33">Exercice 8</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse34" aria-expanded="false" aria-controls="collapse34">Explications</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse35" aria-expanded="false" aria-controls="collapse35">Solution</button>
+          <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse36" aria-expanded="false" aria-controls="collapse36">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse33"><p>Afficher la date du jour - 22 jours</p></div>
+            <div class="collapse text-success" id="collapse34"><p></p></div>
+            <div class="collapse text-warning" id="collapse35">
+              <code>
+                
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse36"><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="final">
+        <div>
+          
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse37" aria-expanded="false" aria-controls="collapse37">Exercice FINAL</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse38" aria-expanded="false" aria-controls="collapse38">Explications</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse39" aria-expanded="false" aria-controls="collapse39">Solution</button>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapse40" aria-expanded="false" aria-controls="collapse40">Réponse</button>
+      
+          <div class="collapse" id="collapseFive">
+            <div class="collapse text-danger font-weight-bold" id="collapse37"><p>Faire un formulaire avec deux listes déroulantes. La première sert à choisir le mois, et le deuxième permet d'avoir l'année. En fonction des choix, l'afficher dans un calendrier. Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau ainsi que les clés associés. Cela pourra être, par exemple, de la forme : "Le département" + nom_departement + "a le numéro" + num_departement</p></div>
+            <div class="collapse text-success" id="collapse38"><p></p></div>
+            <div class="collapse text-warning" id="collapse39">
+              <code>
+
+              </code>
+            </div>
+            <div class="collapse text-info font-weight-bold" id="collapse40"><p></p></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
